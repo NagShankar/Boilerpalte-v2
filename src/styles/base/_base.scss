@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+  font-size:62.5%;  
+}
+
+body{
+  background:#cccccc;
+  font-family:'Open Sans', sans-serif;
+  font-size:$m-size;
+  color:$dark-grey;
+  line-height: 1.6;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+//styling men items
+.is-active{font-weight: bold;}
